@@ -1,0 +1,50 @@
+PARA EXECUTAR O BACKEND 
+
+Necessario: Java 11 LTS
+
+// Entrar na pasta
+cd backend\src\main\java\com\jt\springboot2backend
+
+executar arquivo Springboot2BackendApplication.java
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+PARA EXECUTAR O FRONTEND
+
+Necessario: NodeJS
+
+//Entrar na pasta
+cd frontend
+
+//Executar
+
+npm start
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Só funciona no backend 
+
+- Criar relacionamento Turma x Aluno via POST/PUT
+
+Ex: 
+
+{
+    "cod_matricula": 1,
+    "cpf": "26356",
+    "nome": "Joao",
+    "dt_nascimento": "04/08/1995",
+    "idade": 25,
+    "nome_mae": "Jane",
+    "nome_pai": "Antonio",
+    "turma": {
+    	"id": 2
+    }
+}
+
+- Criar relacionamento Professor x disciplina via POST/PUT
+
+{
+	"cod_disciplina": "PO",
+	"nome_disciplina": "Programação orientada o objetos",
+	"professor": {"id": 1}
+}
+
+agradeço a oportunidade
