@@ -15,8 +15,10 @@ Necessario: NodeJS
 //Entrar na pasta
 cd frontend
 
-//Executar
+//Instalar
+npm install
 
+//Executar
 npm start
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
